@@ -1,4 +1,10 @@
-## Stable Diffusion
+## Added Optimized Scripts
+Powershell Create symlink
+```
+New-Item -ItemType HardLink -Path .\models\ldm\stable-diffusion-v1\model.ckpt -Target .\v1-5-pruned-emaonly.ckpt
+```
+
+## Stable Diffusion Modified
 
 *[Stable Diffusion](https://github.com/compvis/stable-diffusion) builds upon our previous work with the [CompVis group](https://ommer-lab.com/):*
 
